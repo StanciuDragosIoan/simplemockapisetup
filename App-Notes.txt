@@ -1,0 +1,17 @@
+ 
+
+-downloaded starter kit from github;
+-ran #npm install (so the npm configures the app based on package.json);
+-ran #npm run build (so the ES6+ code is bundled by webpack in a single file that is 
+
+-install json placeholder with npm;
+-run $npm i json-server --save; (--save adds it automatically to the package.json;
+-go to package.json and it will we installed as a regualr dependency;
+
+-go to package.json in the scripts object and add--> "json:server" : "json-server --watch api/db.json"
+*the dp.json file in the api directory (in the root directory) will be watched on localhost port 3000 by this configuration;
+-add a basic data structure and save;
+-start run the json server --> run in a separate terminal $npm run json:server
+*json server starts on port 3000 
+-go to localhost:3000/posts, it will show the posts in the db.json (based on the cofiguration in package.json);
+
